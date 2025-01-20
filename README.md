@@ -2,7 +2,7 @@
 
 A collection of projects through which I learned about bare metal software, low-level programming and a lot more.
 
-Written for the [Raspberry Pi Zero 2 W](https://www.raspberrypi.com/products/raspberry-pi-zero-2-w/) using [Broadcom's BCM2835 Datasheet](https://www.raspberrypi.org/app/uploads/2012/02/BCM2835-ARM-Peripherals.pdf) and the internet.
+Written for the [Raspberry Pi Zero 2 W](https://www.raspberrypi.com/products/raspberry-pi-zero-2-w/) using [Broadcom's BCM2835 Datasheet](https://www.raspberrypi.org/app/uploads/2012/02/BCM2835-ARM-Peripherals.pdf) and the Internet.
 
 # Compiling and Running
 
