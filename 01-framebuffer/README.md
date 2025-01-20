@@ -16,6 +16,6 @@ The final result should be a screen filled in with a light blue color.
 # Sources
 
 To write this, the following information sources were used:
- - Peripheral addres mapping explanation - [BCM2835 Datasheet (page 6, section 1.2.3)](https://www.raspberrypi.org/app/uploads/2012/02/BCM2835-ARM-Peripherals.pdf)
+ - Peripheral address mapping explanation - [BCM2835 Datasheet (page 6, section 1.2.3)](https://www.raspberrypi.org/app/uploads/2012/02/BCM2835-ARM-Peripherals.pdf)
  - Mailbox Interface Documentation - [Raspberry Pi Wiki](https://github.com/raspberrypi/firmware/wiki/Mailbox-property-interface)
  - VideoCore IV Mailbox Address - [Linux device tree for bcm283x (line 100)](https://github.com/raspberrypi/linux/blob/rpi-6.6.y/arch/arm/boot/dts/broadcom/bcm283x.dtsi)
