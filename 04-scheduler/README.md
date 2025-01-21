@@ -33,4 +33,4 @@ The final output on the screen should be three different tasks constalty printin
 
 # Sources
 
-This program contains the same hardware knowledge as [03 System Timer](https://github.com/kyryloshy/rpi_baremetal/tree/main/03-system_timer), and is simply more system design and engineering, so no new info sources are necessary.
+This program contains the same hardware knowledge as [03 System Timer](https://github.com/kyryloshy/rpi_baremetal/tree/main/03-system_timer), and is simply more system design and engineering, so there are no new info sources.
