@@ -1,8 +1,8 @@
 # 04 Scheduler
 
-This project builds on [03 System Timer]() to program more complex events on interrupts. The idea of a scheduler is to create a semi-parallel environment where multiple tasks can be run on a single core. This type of parallelism can be achieved through timer interrupts and a scheduler, which manages all tasks.
+This project builds on [03 System Timer](https://github.com/kyryloshy/rpi_baremetal/tree/main/03-system_timer) to program more complex events on interrupts. The idea of a scheduler is to create a semi-parallel environment where multiple tasks can be run on a single core. This type of parallelism can be achieved through timer interrupts and a scheduler, which manages all tasks.
 
-In more detail, [main.s] does the following:
+In more detail, [main.s](https://github.com/kyryloshy/rpi_baremetal/tree/main/04-scheduler/main.s) does the following:
 1. Drops to EL1 and sets up the correct exception vector
 1. Using the programmed-in scheduler logic, it creates three separate tasks using *add_task*
 2. Calls *scheduler_call* to start the scheduling logic
@@ -17,7 +17,7 @@ The *scheduler_call* function does the following:
 
 In the exception vector, the IRQ handler simply calls the *scheduler_call* function to repeat the process
 
-In addition, [memory_manager.s]() was added for easier management of memory. This file adds two important things:
+In addition, [memory_manager.s](https://github.com/kyryloshy/rpi_baremetal/tree/main/04-scheduler/memory_manager.s) was added for easier management of memory. This file adds two important things:
 1. *mem_alloc* - Used to request memory
 2. *mem_free* - Used to free the allocated memory
 
@@ -33,4 +33,4 @@ The final output on the screen should be three different tasks constalty printin
 
 # Sources
 
-This program contains the same hardware knowledge as [03 System Timer](), and is simply more system design and engineering, so no new info sources are necessary.
+This program contains the same hardware knowledge as [03 System Timer](https://github.com/kyryloshy/rpi_baremetal/tree/main/03-system_timer), and is simply more system design and engineering, so no new info sources are necessary.
